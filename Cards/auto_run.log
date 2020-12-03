@@ -1,0 +1,10 @@
+Start Running
+i=2
+2020 Nov 11
+11:56:17 AM
+PPWZ
+[1;31mCommand "import /home/alan/MC_Samples/Universality_DNN/Cards/ppwz.txt" interrupted in sub-command:
+"output /home/u5/ppwz" with error:
+InvalidCmd : No model found. Please import a model first and then retry.[0m
+PPjj
+stty: 'standard input': Inappropriate ioctl for device

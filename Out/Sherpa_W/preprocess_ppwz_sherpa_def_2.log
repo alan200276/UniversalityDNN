@@ -1,0 +1,33 @@
+Input Check and Setting
+File is loaded!
+Generator (GEN) : sherpa
+Showering (SHO) : def
+Process (PRO) : ppwz
+Read Data and Jet Clustering 
+
+
+Fri Nov 27 09:36:06 2020
+[3;33mTime Cost : 0.1834 min[0;m
+Fri Nov 27 09:36:17 2020
+[3;33mTime Cost : 5.7393 min[0;m
+
+
+Fri Nov 27 09:42:01 2020
+Read Data
+
+
+Create Pandas DataFrame
+
+
+Selection and Trimming
+
+
+Fri Nov 27 09:42:01 2020
+There are 28756 jets.
+[3;33mTime Cost : 171.5920 min[0;m
+Make Jet Images
+
+
+Fri Nov 27 12:33:36 2020
+There are 28756 jet images.
+[3;33mTime Cost : 0.3830 min[0;m

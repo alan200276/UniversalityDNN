@@ -1,0 +1,33 @@
+Input Check and Setting
+File is loaded!
+Generator (GEN) : pythia
+Showering (SHO) : def
+Process (PRO) : ppjj
+Read Data and Jet Clustering 
+
+
+Sat Nov 28 13:10:40 2020
+[3;33mTime Cost : 0.2337 min[0;m
+Sat Nov 28 13:10:54 2020
+[3;33mTime Cost : 9.1820 min[0;m
+
+
+Sat Nov 28 13:20:05 2020
+Read Data
+
+
+Create Pandas DataFrame
+
+
+Selection and Trimming
+
+
+Sat Nov 28 13:20:05 2020
+There are 19493 jets.
+[3;33mTime Cost : 80.8152 min[0;m
+Make Jet Images
+
+
+Sat Nov 28 14:40:54 2020
+There are 19493 jet images.
+[3;33mTime Cost : 0.2169 min[0;m

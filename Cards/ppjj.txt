@@ -1,0 +1,17 @@
+#generate p p > j j
+
+#output /home/u5/ppjj
+
+
+launch /home/u5/ppjj
+
+shower=OFF
+detector=OFF
+analysis=OFF
+
+set run_card nevents 100000
+set run_card ebeam1 6500.0
+set run_card ebeam2 6500.0
+
+set run_card ptj 200.0
+set run_card ptjmax 600.0

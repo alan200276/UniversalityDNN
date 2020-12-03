@@ -1,0 +1,214 @@
+************************************************************
+*                                                          *
+*                     W E L C O M E to                     *
+*              M A D G R A P H 5 _ a M C @ N L O           *
+*                                                          *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 2.7.2                 2020-03-17         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                            and                           *
+*            http://amcatnlo.web.cern.ch/amcatnlo/         *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*           Type 'tutorial' to learn how MG5 works         *
+*    Type 'tutorial aMCatNLO' to learn how aMC@NLO works   *
+*    Type 'tutorial MadLoop' to learn how MadLoop works    *
+*                                                          *
+************************************************************
+load MG5 configuration from ../../../../../root/MG5_aMC_v2_7_2/input/mg5_configuration.txt 
+set collier to /root/MG5_aMC_v2_7_2/HEPTools/lib
+set fastjet to /root/fastjet_3_2_1/bin/fastjet-config
+set lhapdf to /root/LHAPDF_6_1_6/bin/lhapdf-config
+set ninja to /root/MG5_aMC_v2_7_2/HEPTools/lib
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+import /home/alan/MC_Samples/Universality_DNN/Cards/ppjj.txt
+The import format was not given, so we guess it as command
+launch /home/u5/ppjj
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 2.7.2                 2020-03-17         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /home/u5/ppjj/Cards/me5_configuration.txt  
+INFO: load configuration from /root/MG5_aMC_v2_7_2/input/mg5_configuration.txt  
+INFO: load configuration from /home/u5/ppjj/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+generate_events run_02
+The following switches determine which programs are run:
+/==============================================================================\
+| 1. Choose the shower/hadronization program   [1m  shower[0m = [31mOFF[0m                  |
+| 2. Choose the detector simulation program    [1mdetector[0m = [31mOFF[0m                  |
+| 3. Choose an analysis package (plot/convert) [1manalysis[0m = [31mOFF[0m                  |
+| 4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m                  |
+| 5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m                  |
+\==============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=Pythia8' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.
+The following switches determine which programs are run:
+/==============================================================================\
+| 1. Choose the shower/hadronization program   [1m  shower[0m = [31mOFF[0m                  |
+| 2. Choose the detector simulation program    [1mdetector[0m = [31mOFF[0m                  |
+| 3. Choose an analysis package (plot/convert) [1manalysis[0m = [31mOFF[0m                  |
+| 4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m                  |
+| 5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m                  |
+\==============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=Pythia8' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.
+The following switches determine which programs are run:
+/==============================================================================\
+| 1. Choose the shower/hadronization program   [1m  shower[0m = [31mOFF[0m                  |
+| 2. Choose the detector simulation program    [1mdetector[0m = [31mOFF[0m                  |
+| 3. Choose an analysis package (plot/convert) [1manalysis[0m = [31mOFF[0m                  |
+| 4. Decay onshell particles                   [1m madspin[0m = [31mOFF[0m                  |
+| 5. Add weights to events for new hypp.       [1mreweight[0m = [31mOFF[0m                  |
+\==============================================================================/
+Either type the switch number (1 to 5) to change its setting,
+Set any switch explicitly (e.g. type 'shower=Pythia8' at the prompt)
+Type 'help' for the list of all valid option
+Type '0', 'auto', 'done' or just press enter when you are done.
+set run_card nevents 100000
+[1mINFO: modify parameter nevents of the run_card.dat to 100000 [0m
+set run_card ebeam1 6500.0
+[1mINFO: modify parameter ebeam1 of the run_card.dat to 6500.0 [0m
+set run_card ebeam2 6500.0
+[1mINFO: modify parameter ebeam2 of the run_card.dat to 6500.0 [0m
+set run_card ptj 200.0
+[1mINFO: modify parameter ptj of the run_card.dat to 200.0 [0m
+set run_card ptjmax 600.0
+[1mINFO: modify parameter ptjmax of the run_card.dat to 600.0 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param : [32mparam_card.dat[0m                                 |
+|  [31m2[0m. run   : [32mrun_card.dat[0m                                   |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, enter path]
+[1mThe answer to the previous question is not set in your input file[0m
+[1mUse 0 value[0m
+INFO: Update the dependent parameter of the param_card.dat 
+Generating 100000 events with run name run_02
+survey  run_02 
+INFO: compile directory 
+compile Source Directory
+Using random number seed offset = 39
+INFO: Running Survey 
+Creating Jobs
+Working on SubProcesses
+INFO:     P1_gg_gg  
+INFO:     P1_gg_qq  
+INFO:     P1_gq_gq  
+INFO:     P1_qq_gg  
+INFO:     P1_qq_qq  
+INFO:  Idle: 0,  Running: 1,  Completed: 6 [ current time: 12h04 ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 7 [  0.92s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 7 [  0.92s  ] 
+INFO: End survey 
+refine 100000
+Creating Jobs
+INFO: Refine results to 100000 
+INFO: Generating 100000.0 unweighted events. 
+INFO: Effective Luminosity 2.14167444139 pb^-1 
+INFO: need to improve 6 channels 
+Current estimate of cross-section: 56030.925 +- 359.368323115
+    P1_gg_gg 
+    P1_gg_qq 
+    P1_gq_gq 
+    P1_qq_gg 
+    P1_qq_qq 
+INFO:  Idle: 0,  Running: 41,  Completed: 82 [ current time: 12h04 ] 
+INFO:  Idle: 0,  Running: 39,  Completed: 84 [  0.078s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 123 [  1.2s  ] 
+INFO: Combining runs 
+INFO: finish refine 
+refine 100000
+Creating Jobs
+INFO: Refine results to 100000 
+INFO: Generating 100000.0 unweighted events. 
+INFO: Effective Luminosity 2.1136057824 pb^-1 
+INFO: need to improve 0 channels 
+Current estimate of cross-section: 56775.015 +- 42.9855026862
+    P1_gg_gg 
+    P1_gg_qq 
+    P1_gq_gq 
+    P1_qq_gg 
+    P1_qq_qq 
+INFO:  Idle: 0,  Running: 0,  Completed: 0 [ current time: 12h04 ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 0 [ current time: 12h04 ] 
+INFO: Combining runs 
+INFO: finish refine 
+INFO: Combining Events 
+  === Results Summary for run: run_02 tag: tag_1 ===
+
+     Cross-section :   5.678e+04 +- 42.99 pb
+     Nb of events :  100000
+ 
+INFO: Running Systematics computation 
+INFO:  Idle: 1,  Running: 39,  Completed: 0 [ current time: 12h05 ] 
+INFO:  Idle: 0,  Running: 39,  Completed: 1 [  22.9s  ] 
+INFO:  Idle: 0,  Running: 27,  Completed: 13 [  26s  ] 
+INFO:  Idle: 0,  Running: 10,  Completed: 30 [  29.4s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 40 [  33s  ] 
+INFO: # events generated with PDF: NNPDF23_lo_as_0130_qed (247000) 
+INFO: #Will Compute 145 weights per event. 
+INFO: #***************************************************************************
+#
+# original cross-section: 56752.8815975
+#     scale variation: +29.6% -21.2%
+#     central scheme variation: +8.29e-08% -28.8%
+# PDF variation: +2.36% -2.36%
+#
+# dynamical scheme # 1 : 44725.2 +26.9% -20% # \sum ET
+# dynamical scheme # 2 : 44725.2 +26.9% -20% # \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 3 : 56752.9 +29.6% -21.2% # 0.5 \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 4 : 40391.8 +25.7% -19.4% # \sqrt{\hat s}
+#***************************************************************************
+ 
+INFO: End of systematics computation 
+store_events
+INFO: Storing parton level results 
+INFO: End Parton 
+reweight -from_cards
+decay_events -from_cards
+INFO: storing files of previous run 
+INFO: Done 
+quit
+INFO:  
+more information in /home/u5/ppjj/index.html
+quit

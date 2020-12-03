@@ -1,0 +1,35 @@
+/home/alan/MC_Samples/Universality_DNN/Preprocess/JSS.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  return np.sum(particles['pT']*CalcDeltaRArray(particles, wta_axes).min(axis=0)) / t0(jet)
+Input Check and Setting
+File is loaded!
+Generator (GEN) : herwig
+Showering (SHO) : ang
+Process (PRO) : ppwz
+Read Data and Jet Clustering 
+
+
+Fri Nov 27 17:36:40 2020
+[3;33mTime Cost : 0.2084 min[0;m
+Fri Nov 27 17:36:52 2020
+[3;33mTime Cost : 6.5284 min[0;m
+
+
+Fri Nov 27 17:43:24 2020
+Read Data
+
+
+Create Pandas DataFrame
+
+
+Selection and Trimming
+
+
+Fri Nov 27 17:43:24 2020
+There are 19570 jets.
+[3;33mTime Cost : 107.4319 min[0;m
+Make Jet Images
+
+
+Fri Nov 27 19:30:50 2020
+There are 19570 jet images.
+[3;33mTime Cost : 0.2406 min[0;m

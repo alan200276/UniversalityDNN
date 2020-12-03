@@ -1,0 +1,21 @@
+Main:numberOfEvents = 100000 
+Main:timesAllowErrors = 3 
+Init:showAllSettings = on  
+Next:numberCount = 1000 
+Next:numberShowInfo = 1 
+Next:numberShowProcess = 1
+Next:numberShowEvent = 10 
+
+
+PartonShowers:model = 1
+
+PDF:pSet = 13 !NNPDF2.3 QCD+QED LO alpha_s(M_Z) = 0.130
+
+
+Random:setSeed = on
+Random:seed = randomseed
+
+ 
+Beams:frameType = 4 
+Beams:LHEF = /home/u5/ppjj/Events/run_01/unweighted_events.lhe
+

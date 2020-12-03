@@ -1,0 +1,126 @@
+Warning in <TClassTable::Add>: class ROOT::Internal::RRawFile already in TClassTable
+Warning in <TClassTable::Add>: class TFileMerger already in TClassTable
+Warning in <TClassTable::Add>: class TDirectoryFile already in TClassTable
+Warning in <TClassTable::Add>: class TFile already in TClassTable
+Warning in <TClassTable::Add>: class TMemFile already in TClassTable
+Warning in <TClassTable::Add>: class ROOT::Experimental::TBufferMerger already in TClassTable
+Warning in <TClassTable::Add>: class ROOT::Experimental::TBufferMergerFile already in TClassTable
+Warning in <TClassTable::Add>: class TArchiveFile already in TClassTable
+Warning in <TClassTable::Add>: class TArchiveMember already in TClassTable
+Warning in <TClassTable::Add>: class TBufferIO already in TClassTable
+Warning in <TClassTable::Add>: class TBufferFile already in TClassTable
+Warning in <TClassTable::Add>: class TBufferText already in TClassTable
+Warning in <TClassTable::Add>: class TBufferJSON already in TClassTable
+Warning in <TClassTable::Add>: class TGenCollectionProxy already in TClassTable
+Warning in <TClassTable::Add>: class TGenCollectionProxy::Value already in TClassTable
+Warning in <TClassTable::Add>: class TGenCollectionProxy::Method already in TClassTable
+Warning in <TClassTable::Add>: class TCollectionProxyFactory already in TClassTable
+Warning in <TClassTable::Add>: class TCollectionStreamer already in TClassTable
+Warning in <TClassTable::Add>: class TCollectionClassStreamer already in TClassTable
+Warning in <TClassTable::Add>: class TCollectionMemberStreamer already in TClassTable
+Warning in <TClassTable::Add>: class TEmulatedCollectionProxy already in TClassTable
+Warning in <TClassTable::Add>: class TEmulatedMapProxy already in TClassTable
+Warning in <TClassTable::Add>: class TFileCacheRead already in TClassTable
+Warning in <TClassTable::Add>: class TFree already in TClassTable
+Warning in <TClassTable::Add>: class TFileCacheWrite already in TClassTable
+Warning in <TClassTable::Add>: class TFPBlock already in TClassTable
+Warning in <TClassTable::Add>: class TFilePrefetch already in TClassTable
+Warning in <TClassTable::Add>: class TKey already in TClassTable
+Warning in <TClassTable::Add>: class TKeyMapFile already in TClassTable
+Warning in <TClassTable::Add>: class TLockFile already in TClassTable
+Warning in <TClassTable::Add>: class TMapFile already in TClassTable
+Warning in <TClassTable::Add>: class TMapRec already in TClassTable
+Warning in <TClassTable::Add>: class TStreamerInfo already in TClassTable
+Warning in <TClassTable::Add>: class TVirtualArray already in TClassTable
+Warning in <TClassTable::Add>: class TStreamerInfoActions::TConfiguration already in TClassTable
+Warning in <TClassTable::Add>: class TStreamerInfoActions::TConfiguredAction already in TClassTable
+Warning in <TClassTable::Add>: class TStreamerInfoActions::TActionSequence already in TClassTable
+Warning in <TClassTable::Add>: class TVirtualObject already in TClassTable
+Warning in <TClassTable::Add>: class TZIPFile already in TClassTable
+Warning in <TClassTable::Add>: class TZIPMember already in TClassTable
+Error in <TExMap::Add>: key 140319400070336 is not unique
+** INFO: adding module        ParticlePropagator       ParticlePropagator       
+** INFO: adding module        Efficiency               ChargedHadronTrackingEfficiency
+** INFO: adding module        Efficiency               ElectronTrackingEfficiency
+** INFO: adding module        Efficiency               MuonTrackingEfficiency   
+** INFO: adding module        MomentumSmearing         ChargedHadronMomentumSmearing
+** INFO: adding module        MomentumSmearing         ElectronMomentumSmearing 
+** INFO: adding module        MomentumSmearing         MuonMomentumSmearing     
+** INFO: adding module        Merger                   TrackMerger              
+** INFO: adding module        SimpleCalorimeter        ECal                     
+** INFO: adding module        SimpleCalorimeter        HCal                     
+** INFO: adding module        PdgCodeFilter            ElectronFilter           
+** INFO: adding module        PdgCodeFilter            ChargedHadronFilter      
+** INFO: adding module        Merger                   Calorimeter              
+** INFO: adding module        Merger                   EFlowMerger              
+** INFO: adding module        PdgCodeFilter            EFlowFilter              
+** INFO: adding module        Efficiency               PhotonEfficiency         
+** INFO: adding module        Isolation                PhotonIsolation          
+** INFO: adding module        Efficiency               ElectronEfficiency       
+** INFO: adding module        Isolation                ElectronIsolation        
+** INFO: adding module        Efficiency               MuonEfficiency           
+** INFO: adding module        Isolation                MuonIsolation            
+** INFO: adding module        Merger                   MissingET                
+** INFO: adding module        Merger                   ScalarHT                 
+** INFO: adding module        PdgCodeFilter            NeutrinoFilter           
+** INFO: adding module        FastJetFinder            GenJetFinder             
+** INFO: adding module        Merger                   GenMissingET             
+** INFO: adding module        FastJetFinder            FastJetFinder            
+** INFO: adding module        EnergyScale              JetEnergyScale           
+** INFO: adding module        JetFlavorAssociation     JetFlavorAssociation     
+** INFO: adding module        BTagging                 BTagging                 
+** INFO: adding module        TrackCountingTauTagging  TauTagging               
+** INFO: adding module        UniqueObjectFinder       UniqueObjectFinder       
+** INFO: adding module        TreeWriter               TreeWriter               
+** INFO: initializing module  Delphes                  
+** INFO: initializing module  ParticlePropagator       
+** INFO: initializing module  ChargedHadronTrackingEfficiency
+** INFO: initializing module  ElectronTrackingEfficiency
+** INFO: initializing module  MuonTrackingEfficiency   
+** INFO: initializing module  ChargedHadronMomentumSmearing
+** INFO: initializing module  ElectronMomentumSmearing 
+** INFO: initializing module  MuonMomentumSmearing     
+** INFO: initializing module  TrackMerger              
+** INFO: initializing module  ECal                     
+** INFO: initializing module  HCal                     
+** INFO: initializing module  Calorimeter              
+** INFO: initializing module  EFlowMerger              
+** INFO: initializing module  EFlowFilter              
+** INFO: initializing module  PhotonEfficiency         
+** INFO: initializing module  PhotonIsolation          
+** INFO: initializing module  ElectronFilter           
+** INFO: initializing module  ElectronEfficiency       
+** INFO: initializing module  ElectronIsolation        
+** INFO: initializing module  ChargedHadronFilter      
+** INFO: initializing module  MuonEfficiency           
+** INFO: initializing module  MuonIsolation            
+** INFO: initializing module  MissingET                
+** INFO: initializing module  NeutrinoFilter           
+** INFO: initializing module  GenJetFinder             
+#--------------------------------------------------------------------------
+#                         FastJet release 3.3.2
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the terms of the GNU GPLv2.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+** INFO: initializing module  GenMissingET             
+** INFO: initializing module  FastJetFinder            
+** INFO: initializing module  JetEnergyScale           
+** INFO: initializing module  JetFlavorAssociation     
+** INFO: initializing module  BTagging                 
+** INFO: initializing module  TauTagging               
+** INFO: initializing module  UniqueObjectFinder       
+** INFO: initializing module  ScalarHT                 
+** INFO: initializing module  TreeWriter               
+** Reading /home/u5/Universality/Pythia_dipole/ppwz_pythia_dipole.hepmc
+** [----------------------------------------------------------------] (0.00%)** [#---------------------------------------------------------------] (1.56%)** [##--------------------------------------------------------------] (3.14%)** [###-------------------------------------------------------------] (4.69%)** [####------------------------------------------------------------] (6.26%)** [#####-----------------------------------------------------------] (7.84%)** [######----------------------------------------------------------] (9.38%)** [#######---------------------------------------------------------] (10.94%)** [########--------------------------------------------------------] (12.51%)** [#########-------------------------------------------------------] (14.07%)** [##########------------------------------------------------------] (15.64%)** [###########-----------------------------------------------------] (17.19%)** [############----------------------------------------------------] (18.76%)** [#############---------------------------------------------------] (20.33%)** [##############--------------------------------------------------] (21.88%)** [###############-------------------------------------------------] (23.45%)** [################------------------------------------------------] (25.00%)** [#################-----------------------------------------------] (26.58%)** [##################----------------------------------------------] (28.13%)** [###################---------------------------------------------] (29.69%)** [####################--------------------------------------------] (31.25%)** [#####################-------------------------------------------] (32.81%)** [######################------------------------------------------] (34.38%)** [#######################-----------------------------------------] (35.94%)** [########################----------------------------------------] (37.50%)** [#########################---------------------------------------] (39.07%)** [##########################--------------------------------------] (40.63%)** [###########################-------------------------------------] (42.20%)** [############################------------------------------------] (43.75%)** [#############################-----------------------------------] (45.33%)** [##############################----------------------------------] (46.88%)** [###############################---------------------------------] (48.45%)** [################################--------------------------------] (50.00%)** [#################################-------------------------------] (51.57%)** [##################################------------------------------] (53.13%)** [###################################-----------------------------] (54.69%)** [####################################----------------------------] (56.25%)** [#####################################---------------------------] (57.82%)** [######################################--------------------------] (59.38%)** [#######################################-------------------------] (60.95%)** [########################################------------------------] (62.50%)** [#########################################-----------------------] (64.06%)** [##########################################----------------------] (65.63%)** [###########################################---------------------] (67.20%)** [############################################--------------------] (68.75%)** [#############################################-------------------] (70.31%)** [##############################################------------------] (71.89%)** [###############################################-----------------] (73.45%)** [################################################----------------] (75.00%)** [#################################################---------------] (76.59%)** [##################################################--------------] (78.13%)** [###################################################-------------] (79.70%)** [####################################################------------] (81.26%)** [#####################################################-----------] (82.83%)** [######################################################----------] (84.39%)** [#######################################################---------] (85.94%)** [########################################################--------] (87.51%)** [#########################################################-------] (89.08%)** [##########################################################------] (90.66%)** [###########################################################-----] (92.20%)** [############################################################----] (93.76%)** [#############################################################---] (95.34%)** [##############################################################--] (96.89%)** [###############################################################-] (98.45%)** [################################################################] (100.00%)
+** Exiting...
+Error in <TList::Clear>: A list is accessing an object (0x2d1f420) already deleted (list name = Browsables)
+double free or corruption (fasttop)

@@ -1,0 +1,26 @@
+#define W = w- w+
+
+#generate p p > W z, (W > j j), (z > vl vl~)
+
+#output /home/u5/ppwz
+#output ppwz
+
+
+#launch /home/u5/ppwz
+
+#launch ppwz
+
+shower=OFF
+detector=OFF
+analysis=OFF
+
+#set run_card nevents 100000
+set run_card nevents 100
+set run_card ebeam1 6500.0
+set run_card ebeam2 6500.0
+
+set run_card misset 200.0
+set run_card missetmax 600.0
+
+
+#set scan:[x for x in xrange(100, 200, 10)]

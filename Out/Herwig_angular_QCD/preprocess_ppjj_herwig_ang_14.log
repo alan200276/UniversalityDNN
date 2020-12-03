@@ -1,0 +1,33 @@
+Input Check and Setting
+File is loaded!
+Generator (GEN) : herwig
+Showering (SHO) : ang
+Process (PRO) : ppjj
+Read Data and Jet Clustering 
+
+
+Sat Nov 28 14:51:39 2020
+[3;33mTime Cost : 0.2076 min[0;m
+Sat Nov 28 14:51:52 2020
+[3;33mTime Cost : 8.0317 min[0;m
+
+
+Sat Nov 28 14:59:54 2020
+Read Data
+
+
+Create Pandas DataFrame
+
+
+Selection and Trimming
+
+
+Sat Nov 28 14:59:54 2020
+There are 15942 jets.
+[3;33mTime Cost : 61.4924 min[0;m
+Make Jet Images
+
+
+Sat Nov 28 16:01:23 2020
+There are 15942 jet images.
+[3;33mTime Cost : 0.1930 min[0;m
